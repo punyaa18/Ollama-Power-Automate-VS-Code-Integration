@@ -46,6 +46,7 @@ This repository demonstrates how to integrate **Ollama** — a local Large Langu
    # Verify installation
    ollama --version
    ```
+<img width="640" height="254" alt="image" src="https://github.com/user-attachments/assets/627da39f-d4ab-4386-b8bc-8ed4b52608f3" />
 
 2. **Download a Model**
    ```bash
@@ -55,6 +56,7 @@ This repository demonstrates how to integrate **Ollama** — a local Large Langu
    # Verify download
    ollama list
    ```
+<img width="750" height="252" alt="image" src="https://github.com/user-attachments/assets/c3d5d55f-4f20-4bc9-adda-05111d4b1838" />
 
 3. **Install Python Package**
    ```bash
@@ -105,28 +107,7 @@ While interacting with a model:
 - `/system` - Set system prompt
 - `/reset` - Clear conversation history
 
-## Repository Structure
-
-```
-PA+VScode/
-├── README.md                      # This file
-├── blog.md                        # Complete tutorial blog post
-├── POWER_AUTOMATE_SETUP.md        # Power Automate integration guide
-├── GITHUB_SETUP.md                # GitHub setup instructions
-├── CONTRIBUTING.md                # Contribution guidelines
-├── LICENSE                        # MIT License
-├── requirements.txt               # Python dependencies
-├── .gitignore                     # Git ignore rules
-├── examples/
-│   ├── basic_chat.py             # Simple chat example
-│   ├── multi_turn_chat.py        # Conversation with context
-│   ├── power_automate.py         # Flask API server
-│   ├── flow_trigger_complete.py  # Complete flow trigger example
-│   └── custom_model.py           # Custom model creation
-└── modelfiles/
-    ├── python_assistant.modelfile # Python coding assistant
-    └── email_assistant.modelfile  # Email response assistant
-```
+<img width="750" height="421" alt="image" src="https://github.com/user-attachments/assets/b85496be-df0e-4b5a-87d6-4734f98b2c80" />
 
 ## Documentation
 
@@ -190,22 +171,4 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - [Model Library](https://ollama.com/library)
 - [Python Package Documentation](https://github.com/ollama/ollama-python)
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-**Punyaa Dixit**
-
-## Acknowledgments
-
-- Ollama team for creating an excellent local LLM runtime
-- The open-source AI community
-- Contributors to this repository
-
----
-
-⭐ **Star this repository** if you find it helpful!
-
-🔗 **Share** with others building AI-powered automation workflows

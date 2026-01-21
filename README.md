@@ -109,22 +109,34 @@ While interacting with a model:
 
 ```
 PA+VScode/
-├── README.md                 # This file
-├── blog.md                   # Detailed tutorial blog post
+├── README.md                      # This file
+├── blog.md                        # Complete tutorial blog post
+├── POWER_AUTOMATE_SETUP.md        # Power Automate integration guide
+├── GITHUB_SETUP.md                # GitHub setup instructions
+├── CONTRIBUTING.md                # Contribution guidelines
+├── LICENSE                        # MIT License
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Git ignore rules
 ├── examples/
-│   ├── basic_chat.py        # Simple chat example
-│   ├── power_automate.py    # Power Automate integration
-│   └── custom_model.py      # Custom model creation
-├── modelfiles/
-│   └── example_modelfile    # Sample Modelfile
-├── requirements.txt          # Python dependencies
-└── .gitignore               # Git ignore rules
+│   ├── basic_chat.py             # Simple chat example
+│   ├── multi_turn_chat.py        # Conversation with context
+│   ├── power_automate.py         # Flask API server
+│   ├── flow_trigger_complete.py  # Complete flow trigger example
+│   └── custom_model.py           # Custom model creation
+└── modelfiles/
+    ├── python_assistant.modelfile # Python coding assistant
+    └── email_assistant.modelfile  # Email response assistant
 ```
 
 ## Documentation
 
-For a comprehensive step-by-step guide, see [blog.md](blog.md) which covers:
+**📘 Main Guides:**
+- **[blog.md](blog.md)** - Complete tutorial and walkthrough
+- **[POWER_AUTOMATE_SETUP.md](POWER_AUTOMATE_SETUP.md)** - Detailed Power Automate integration guide
+- **[GITHUB_SETUP.md](GITHUB_SETUP.md)** - Instructions for pushing to GitHub
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
 
+**What you'll learn:**
 - What Ollama is and why you need it
 - Complete installation walkthrough
 - Model selection and management
